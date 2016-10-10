@@ -35,3 +35,7 @@
            (set (make-local-variable 'company-backends) '(company-go))
            (company-mode)
 ))
+
+
+(custom-set-variables                                                             
+ '(company-global-modes '(not eshell-mode)))

@@ -66,6 +66,8 @@
                   '(("makeinfo" "-o" "doc/flycheck.info" "doc/flycheck.texi"))
                   :info "./doc" :depends
                   (dash pkg-info let-alist seq)))
+ (fuzzy status "installed" recipe
+        (:name fuzzy :website "https://github.com/auto-complete/fuzzy-el" :description "Fuzzy matching utilities for GNU Emacs" :type github :pkgname "auto-complete/fuzzy-el"))
  (go-autocomplete status "installed" recipe
                   (:name go-autocomplete :features
                          (go-autocomplete)

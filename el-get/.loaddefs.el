@@ -1325,12 +1325,12 @@ Major mode for editing web templates.
 ;;;;;;  "el-get/el-get-install.el" "el-get/el-get-methods.el" "el-get/el-get-notify.el"
 ;;;;;;  "el-get/el-get-recipes.el" "el-get/el-get-status.el" "emacs-jedi/test-jedi.el"
 ;;;;;;  "emacs-jedi/tryout-jedi.el" "epl/epl.el" "flycheck/flycheck-buttercup.el"
-;;;;;;  "flycheck/flycheck-ert.el" "go-autocomplete/emacs/go-autocomplete.el"
+;;;;;;  "flycheck/flycheck-ert.el" "fuzzy/fuzzy.el" "go-autocomplete/emacs/go-autocomplete.el"
 ;;;;;;  "go-mode/go-mode-autoloads.el" "hc-zenburn-theme/hc-zenburn-theme-autoloads.el"
 ;;;;;;  "hc-zenburn-theme/hc-zenburn-theme-pkg.el" "init-loader/test-init-loader.el"
 ;;;;;;  "js2-mode/js2-old-indent.el" "let-alist/let-alist-autoloads.el"
 ;;;;;;  "let-alist/let-alist-pkg.el" "popup/popup.el" "react-snippets.el/react-snippets-pkg.el"
-;;;;;;  "seq/seq.el") (22400 36200 551504 0))
+;;;;;;  "seq/seq.el") (22406 19342 575938 0))
 
 ;;;***
 

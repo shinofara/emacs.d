@@ -1,5 +1,6 @@
 (setq el-get-lock-package-versions
-      '((company-go :checksum "db76c0500389c506c47a38e352ecccb656cde87a")
+      '((fuzzy :checksum "534d723ad2e06322ff8d9bd0ba4863d243f698e7")
+        (company-go :checksum "db76c0500389c506c47a38e352ecccb656cde87a")
         (typescript\.el :checksum "d81cc7278276b8d3a163e14fe5396126eff0475d")
         (js2-mode :checksum "b57d129c2f156eda96f7aea004472a7f6d70334a")
         (web-mode :checksum "867ea7c5d7f3d9bb41127dac364c0fb009adc7bf")
