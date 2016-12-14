@@ -3,56 +3,8 @@
 ;;; Code:
 
 
-;;;### (autoloads nil "auto-complete/auto-complete" "auto-complete/auto-complete.el"
-;;;;;;  (22163 59599 0 0))
-;;; Generated autoloads from auto-complete/auto-complete.el
-
-(autoload 'auto-complete "auto-complete/auto-complete" "\
-Start auto-completion at current point.
-
-\(fn &optional SOURCES)" t nil)
-
-(autoload 'auto-complete-mode "auto-complete/auto-complete" "\
-AutoComplete mode
-
-\(fn &optional ARG)" t nil)
-
-(defvar global-auto-complete-mode nil "\
-Non-nil if Global-Auto-Complete mode is enabled.
-See the command `global-auto-complete-mode' for a description of this minor mode.
-Setting this variable directly does not take effect;
-either customize it (see the info node `Easy Customization')
-or call the function `global-auto-complete-mode'.")
-
-(custom-autoload 'global-auto-complete-mode "auto-complete/auto-complete" nil)
-
-(autoload 'global-auto-complete-mode "auto-complete/auto-complete" "\
-Toggle Auto-Complete mode in all buffers.
-With prefix ARG, enable Global-Auto-Complete mode if ARG is positive;
-otherwise, disable it.  If called from Lisp, enable the mode if
-ARG is omitted or nil.
-
-Auto-Complete mode is enabled in all buffers where
-`auto-complete-mode-maybe' would do it.
-See `auto-complete-mode' for more information on Auto-Complete mode.
-
-\(fn &optional ARG)" t nil)
-
-;;;***
-
-;;;### (autoloads nil "auto-complete/auto-complete-config" "auto-complete/auto-complete-config.el"
-;;;;;;  (22163 59599 0 0))
-;;; Generated autoloads from auto-complete/auto-complete-config.el
-
-(autoload 'ac-config-default "auto-complete/auto-complete-config" "\
-
-
-\(fn)" nil nil)
-
-;;;***
-
 ;;;### (autoloads nil "company-go/company-go" "company-go/company-go.el"
-;;;;;;  (22400 36200 0 0))
+;;;;;;  (22608 59272 0 0))
 ;;; Generated autoloads from company-go/company-go.el
 
 (autoload 'company-go "company-go/company-go" "\
@@ -63,7 +15,7 @@ See `auto-complete-mode' for more information on Auto-Complete mode.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company" "company-mode/company.el"
-;;;;;;  (22400 34038 0 0))
+;;;;;;  (22608 59270 0 0))
 ;;; Generated autoloads from company-mode/company.el
 
 (autoload 'company-mode "company-mode/company" "\
@@ -97,8 +49,9 @@ keymap during active completions (`company-active-map'):
 \(fn &optional ARG)" t nil)
 
 (defvar global-company-mode nil "\
-Non-nil if Global-Company mode is enabled.
-See the command `global-company-mode' for a description of this minor mode.
+Non-nil if Global Company mode is enabled.
+See the `global-company-mode' command
+for a description of this minor mode.
 Setting this variable directly does not take effect;
 either customize it (see the info node `Easy Customization')
 or call the function `global-company-mode'.")
@@ -107,7 +60,7 @@ or call the function `global-company-mode'.")
 
 (autoload 'global-company-mode "company-mode/company" "\
 Toggle Company mode in all buffers.
-With prefix ARG, enable Global-Company mode if ARG is positive;
+With prefix ARG, enable Global Company mode if ARG is positive;
 otherwise, disable it.  If called from Lisp, enable the mode if
 ARG is omitted or nil.
 
@@ -133,7 +86,7 @@ inserted.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-abbrev" "company-mode/company-abbrev.el"
-;;;;;;  (22400 34038 0 0))
+;;;;;;  (22608 59270 0 0))
 ;;; Generated autoloads from company-mode/company-abbrev.el
 
 (autoload 'company-abbrev "company-mode/company-abbrev" "\
@@ -144,7 +97,7 @@ inserted.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-bbdb" "company-mode/company-bbdb.el"
-;;;;;;  (22400 34038 0 0))
+;;;;;;  (22608 59270 0 0))
 ;;; Generated autoloads from company-mode/company-bbdb.el
 
 (autoload 'company-bbdb "company-mode/company-bbdb" "\
@@ -155,7 +108,7 @@ inserted.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-css" "company-mode/company-css.el"
-;;;;;;  (22400 34038 0 0))
+;;;;;;  (22608 59270 0 0))
 ;;; Generated autoloads from company-mode/company-css.el
 
 (autoload 'company-css "company-mode/company-css" "\
@@ -166,7 +119,7 @@ inserted.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-dabbrev" "company-mode/company-dabbrev.el"
-;;;;;;  (22400 34038 0 0))
+;;;;;;  (22608 59270 0 0))
 ;;; Generated autoloads from company-mode/company-dabbrev.el
 
 (autoload 'company-dabbrev "company-mode/company-dabbrev" "\
@@ -177,7 +130,7 @@ dabbrev-like `company-mode' completion backend.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-dabbrev-code" "company-mode/company-dabbrev-code.el"
-;;;;;;  (22400 34038 0 0))
+;;;;;;  (22608 59270 0 0))
 ;;; Generated autoloads from company-mode/company-dabbrev-code.el
 
 (autoload 'company-dabbrev-code "company-mode/company-dabbrev-code" "\
@@ -190,7 +143,7 @@ comments or strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-elisp" "company-mode/company-elisp.el"
-;;;;;;  (22400 34038 0 0))
+;;;;;;  (22608 59270 0 0))
 ;;; Generated autoloads from company-mode/company-elisp.el
 
 (autoload 'company-elisp "company-mode/company-elisp" "\
@@ -201,7 +154,7 @@ comments or strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-etags" "company-mode/company-etags.el"
-;;;;;;  (22400 34038 0 0))
+;;;;;;  (22608 59270 0 0))
 ;;; Generated autoloads from company-mode/company-etags.el
 
 (autoload 'company-etags "company-mode/company-etags" "\
@@ -212,7 +165,7 @@ comments or strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-files" "company-mode/company-files.el"
-;;;;;;  (22400 34038 0 0))
+;;;;;;  (22608 59270 0 0))
 ;;; Generated autoloads from company-mode/company-files.el
 
 (autoload 'company-files "company-mode/company-files" "\
@@ -225,7 +178,7 @@ File paths with spaces are only supported inside strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-gtags" "company-mode/company-gtags.el"
-;;;;;;  (22400 34038 0 0))
+;;;;;;  (22608 59270 0 0))
 ;;; Generated autoloads from company-mode/company-gtags.el
 
 (autoload 'company-gtags "company-mode/company-gtags" "\
@@ -236,7 +189,7 @@ File paths with spaces are only supported inside strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-ispell" "company-mode/company-ispell.el"
-;;;;;;  (22400 34038 0 0))
+;;;;;;  (22608 59270 0 0))
 ;;; Generated autoloads from company-mode/company-ispell.el
 
 (autoload 'company-ispell "company-mode/company-ispell" "\
@@ -247,7 +200,7 @@ File paths with spaces are only supported inside strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-keywords" "company-mode/company-keywords.el"
-;;;;;;  (22400 34038 0 0))
+;;;;;;  (22608 59270 0 0))
 ;;; Generated autoloads from company-mode/company-keywords.el
 
 (autoload 'company-keywords "company-mode/company-keywords" "\
@@ -258,7 +211,7 @@ File paths with spaces are only supported inside strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-nxml" "company-mode/company-nxml.el"
-;;;;;;  (22400 34038 0 0))
+;;;;;;  (22608 59270 0 0))
 ;;; Generated autoloads from company-mode/company-nxml.el
 
 (autoload 'company-nxml "company-mode/company-nxml" "\
@@ -269,7 +222,7 @@ File paths with spaces are only supported inside strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-oddmuse" "company-mode/company-oddmuse.el"
-;;;;;;  (22400 34038 0 0))
+;;;;;;  (22608 59270 0 0))
 ;;; Generated autoloads from company-mode/company-oddmuse.el
 
 (autoload 'company-oddmuse "company-mode/company-oddmuse" "\
@@ -280,7 +233,7 @@ File paths with spaces are only supported inside strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-semantic" "company-mode/company-semantic.el"
-;;;;;;  (22400 34038 0 0))
+;;;;;;  (22608 59270 0 0))
 ;;; Generated autoloads from company-mode/company-semantic.el
 
 (autoload 'company-semantic "company-mode/company-semantic" "\
@@ -291,7 +244,7 @@ File paths with spaces are only supported inside strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-tempo" "company-mode/company-tempo.el"
-;;;;;;  (22400 34038 0 0))
+;;;;;;  (22608 59270 0 0))
 ;;; Generated autoloads from company-mode/company-tempo.el
 
 (autoload 'company-tempo "company-mode/company-tempo" "\
@@ -302,7 +255,7 @@ File paths with spaces are only supported inside strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-xcode" "company-mode/company-xcode.el"
-;;;;;;  (22400 34038 0 0))
+;;;;;;  (22608 59270 0 0))
 ;;; Generated autoloads from company-mode/company-xcode.el
 
 (autoload 'company-xcode "company-mode/company-xcode" "\
@@ -313,7 +266,7 @@ File paths with spaces are only supported inside strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-yasnippet" "company-mode/company-yasnippet.el"
-;;;;;;  (22400 34038 0 0))
+;;;;;;  (22608 59270 0 0))
 ;;; Generated autoloads from company-mode/company-yasnippet.el
 
 (autoload 'company-yasnippet "company-mode/company-yasnippet" "\
@@ -344,7 +297,7 @@ shadow backends that come after it.  Recommended usages:
 ;;;***
 
 ;;;### (autoloads nil "el-get-lock/el-get-lock" "el-get-lock/el-get-lock.el"
-;;;;;;  (22163 59523 0 0))
+;;;;;;  (22608 59156 0 0))
 ;;; Generated autoloads from el-get-lock/el-get-lock.el
 
 (autoload 'el-get-lock "el-get-lock/el-get-lock" "\
@@ -381,7 +334,7 @@ Checkout the locked version of PACKAGES.
 
 ;;;***
 
-;;;### (autoloads nil "el-get/el-get" "el-get/el-get.el" (22163 59515
+;;;### (autoloads nil "el-get/el-get" "el-get/el-get.el" (22608 59148
 ;;;;;;  0 0))
 ;;; Generated autoloads from el-get/el-get.el
 
@@ -482,13 +435,13 @@ already installed packages is considered.
 ;;;***
 
 ;;;### (autoloads nil "el-get/el-get-bundle" "el-get/el-get-bundle.el"
-;;;;;;  (22163 59515 0 0))
+;;;;;;  (22608 59148 0 0))
 ;;; Generated autoloads from el-get/el-get-bundle.el
 
 (autoload 'el-get-bundle-el-get "el-get/el-get-bundle" "\
 
 
-\(fn SRC)" nil nil)
+\(fn SRC SYNC)" nil nil)
 
 (autoload 'el-get-bundle "el-get/el-get-bundle" "\
 Install PACKAGE and run initialization FORM.
@@ -508,9 +461,14 @@ same.  If you wish to `require' more than one feature, then use
 `:features' property in FORM.
 
 The initialization FORM may start with a property list that
-describes a local recipe.  The FORM after the property list is
-treated as initialization code, which is actually an `:after'
-property of the local recipe.
+describes a local recipe.  The property list may include the keyword
+`:bundle-sync' with a value of either `t' or `nil' to request that
+`el-get-bundle' invoke `el-get' synchronously (respectively asynchronously).
+The keyword `:bundle-async' is the inverse of `:bundle-sync'.
+\(Note that the request to run el-get synchronously may not be respected in all
+circumstances: see the definition of `el-get-bundle-el-get' for details.)
+The FORM after the property list is treated as initialization code,
+which is actually an `:after' property of the local recipe.
 
 A copy of the initialization code is stored in a directory
 specified by `el-get-bundle-init-directory' and its byte-compiled
@@ -518,7 +476,7 @@ version is used if `el-get-bundle-byte-compile' is non-nil.
 
 \(fn PACKAGE &rest FORM)" nil t)
 
-(put 'el-get-bundle 'lisp-indent-function 'defun)
+(function-put 'el-get-bundle 'lisp-indent-function 'defun)
 
 (autoload 'el-get-bundle! "el-get/el-get-bundle" "\
 Install PACKAGE and run initialization form.
@@ -527,12 +485,12 @@ required.
 
 \(fn PACKAGE &rest ARGS)" nil t)
 
-(put 'el-get-bundle! 'lisp-indent-function 'defun)
+(function-put 'el-get-bundle! 'lisp-indent-function 'defun)
 
 ;;;***
 
 ;;;### (autoloads nil "el-get/el-get-check" "el-get/el-get-check.el"
-;;;;;;  (22163 59515 0 0))
+;;;;;;  (22608 59148 0 0))
 ;;; Generated autoloads from el-get/el-get-check.el
 
 (autoload 'el-get-check-recipe "el-get/el-get-check" "\
@@ -551,7 +509,7 @@ object or a file path.
 ;;;***
 
 ;;;### (autoloads nil "el-get/el-get-list-packages" "el-get/el-get-list-packages.el"
-;;;;;;  (22163 59515 0 0))
+;;;;;;  (22608 59148 0 0))
 ;;; Generated autoloads from el-get/el-get-list-packages.el
 
 (autoload 'el-get-list-packages "el-get/el-get-list-packages" "\
@@ -561,143 +519,8 @@ Display a list of packages.
 
 ;;;***
 
-;;;### (autoloads nil "emacs-company/company-go" "emacs-company/company-go.el"
-;;;;;;  (22400 36161 0 0))
-;;; Generated autoloads from emacs-company/company-go.el
-
-(autoload 'company-go "emacs-company/company-go" "\
-
-
-\(fn COMMAND &optional ARG &rest IGNORED)" nil nil)
-
-;;;***
-
-;;;### (autoloads nil "emacs-jedi/jedi" "emacs-jedi/jedi.el" (22166
-;;;;;;  34237 0 0))
-;;; Generated autoloads from emacs-jedi/jedi.el
-
-(autoload 'jedi:ac-setup "emacs-jedi/jedi" "\
-Add Jedi AC sources to `ac-sources'.
-
-If auto-completion is all you need, you can call this function instead
-of `jedi:setup', like this::
-
-   (add-hook 'python-mode-hook 'jedi:ac-setup)
-
-Note that this function calls `auto-complete-mode' if it is not
-already enabled, for people who don't call `global-auto-complete-mode'
-in their Emacs configuration.
-
-\(fn)" t nil)
-
-(autoload 'jedi:complete "emacs-jedi/jedi" "\
-Complete code at point.
-
-\(fn &key (expand ac-expand-on-auto-complete))" t nil)
-
-(autoload 'jedi:auto-complete-mode "emacs-jedi/jedi" "\
-
-
-\(fn)" nil nil)
-
-(setq jedi:setup-function #'jedi:ac-setup jedi:mode-function #'jedi:auto-complete-mode)
-
-;;;***
-
-;;;### (autoloads nil "emacs-jedi/jedi-core" "emacs-jedi/jedi-core.el"
-;;;;;;  (22166 34237 0 0))
-;;; Generated autoloads from emacs-jedi/jedi-core.el
-
-(autoload 'jedi:start-dedicated-server "emacs-jedi/jedi-core" "\
-Start Jedi server dedicated to this buffer.
-This is useful, for example, when you want to use different
-`sys.path' for some buffer.  When invoked as an interactive
-command, it asks you how to start the Jedi server.  You can edit
-the command in minibuffer to specify the way Jedi server run.
-
-If you want to setup how Jedi server is started programmatically
-per-buffer/per-project basis, make `jedi:server-command' and
-`jedi:server-args' buffer local and set it in `python-mode-hook'.
-See also: `jedi:server-args'.
-
-\(fn COMMAND)" t nil)
-
-(autoload 'helm-jedi-related-names "emacs-jedi/jedi-core" "\
-Find related names of the object at point using `helm' interface.
-
-\(fn)" t nil)
-
-(autoload 'anything-jedi-related-names "emacs-jedi/jedi-core" "\
-Find related names of the object at point using `anything' interface.
-
-\(fn)" t nil)
-
-(autoload 'jedi:setup "emacs-jedi/jedi-core" "\
-Fully setup jedi.el for current buffer.
-It setups `ac-sources' or `company-backends' and turns
-`jedi-mode' on.
-
-This function is intended to be called from `python-mode-hook',
-like this::
-
-       (add-hook 'python-mode-hook 'jedi:setup)
-
-You can also call this function as a command, to quickly test
-what jedi can do.
-
-\(fn)" t nil)
-
-(autoload 'jedi:install-server "emacs-jedi/jedi-core" "\
-This command installs Jedi server script jediepcserver.py in a
-Python environment dedicated to Emacs.  By default, the
-environment is at ``~/.emacs.d/.python-environments/default/``.
-This environment is automatically created by ``virtualenv`` if it
-does not exist.
-
-Run this command (i.e., type ``M-x jedi:install-server RET``)
-whenever Jedi.el shows a message to do so.  It is a good idea to
-run this every time after you update Jedi.el to sync version of
-Python modules used by Jedi.el and Jedi.el itself.
-
-You can modify the location of the environment by changing
-`jedi:environment-root' and/or `python-environment-directory'.  More
-specifically, Jedi.el will install Python modules under the directory
-``PYTHON-ENVIRONMENT-DIRECTORY/JEDI:ENVIRONMENT-ROOT``.  Note that you
-need command line program ``virtualenv``.  If you have the command in
-an unusual location, use `python-environment-virtualenv' to specify the
-location.
-
-.. NOTE:: jediepcserver.py is installed in a virtual environment but it
-   does not mean Jedi.el cannot recognize the modules in virtual
-   environment you are using for your Python development.  Jedi
-   EPC server recognize the virtualenv it is in (i.e., the
-   environment variable ``VIRTUAL_ENV`` in your Emacs) and then
-   add modules in that environment to its ``sys.path``.  You can
-   also add ``--virtual-env PATH/TO/ENV`` to `jedi:server-args'
-   to include modules of virtual environment even you launch
-   Emacs outside of the virtual environment.
-
-.. NOTE:: It is highly recommended to use this command to install
-   Python modules for Jedi.el.  You still can install Python
-   modules used by Jedi.el manually.  However, you are then
-   responsible for keeping Jedi.el and Python modules compatible.
-
-See also:
-
-- https://github.com/tkf/emacs-jedi/pull/72
-- https://github.com/tkf/emacs-jedi/issues/140#issuecomment-37358527
-
-\(fn)" t nil)
-
-(autoload 'jedi:install-server-block "emacs-jedi/jedi-core" "\
-Blocking version `jedi:install-server'.
-
-\(fn)" nil nil)
-
-;;;***
-
 ;;;### (autoloads nil "exec-path-from-shell/exec-path-from-shell"
-;;;;;;  "exec-path-from-shell/exec-path-from-shell.el" (22163 59602
+;;;;;;  "exec-path-from-shell/exec-path-from-shell.el" (22608 59251
 ;;;;;;  0 0))
 ;;; Generated autoloads from exec-path-from-shell/exec-path-from-shell.el
 
@@ -731,10 +554,10 @@ values used in the user's shell.
 ;;;***
 
 ;;;### (autoloads nil "flycheck/flycheck" "flycheck/flycheck.el"
-;;;;;;  (22165 8623 0 0))
+;;;;;;  (22609 2107 0 0))
 ;;; Generated autoloads from flycheck/flycheck.el
 
-(autoload 'flycheck-info "flycheck/flycheck" "\
+(autoload 'flycheck-manual "flycheck/flycheck" "\
 Open the Flycheck manual.
 
 \(fn)" t nil)
@@ -760,8 +583,9 @@ buffer manually.
 \(fn &optional ARG)" t nil)
 
 (defvar global-flycheck-mode nil "\
-Non-nil if Global-Flycheck mode is enabled.
-See the command `global-flycheck-mode' for a description of this minor mode.
+Non-nil if Global Flycheck mode is enabled.
+See the `global-flycheck-mode' command
+for a description of this minor mode.
 Setting this variable directly does not take effect;
 either customize it (see the info node `Easy Customization')
 or call the function `global-flycheck-mode'.")
@@ -770,7 +594,7 @@ or call the function `global-flycheck-mode'.")
 
 (autoload 'global-flycheck-mode "flycheck/flycheck" "\
 Toggle Flycheck mode in all buffers.
-With prefix ARG, enable Global-Flycheck mode if ARG is positive;
+With prefix ARG, enable Global Flycheck mode if ARG is positive;
 otherwise, disable it.  If called from Lisp, enable the mode if
 ARG is omitted or nil.
 
@@ -830,10 +654,10 @@ The following PROPERTIES constitute an error level:
 
 \(fn LEVEL &rest PROPERTIES)" nil nil)
 
-(put 'flycheck-define-error-level 'lisp-indent-function '1)
+(function-put 'flycheck-define-error-level 'lisp-indent-function '1)
 
 (autoload 'flycheck-define-command-checker "flycheck/flycheck" "\
-Define SYMBOL as syntax checker which runs a command.
+Define SYMBOL as syntax checker to run a command.
 
 Define SYMBOL as generic syntax checker via
 `flycheck-define-generic-checker', which uses an external command
@@ -911,9 +735,9 @@ default `:verify' function of command checkers.
 
 \(fn SYMBOL DOCSTRING &rest PROPERTIES)" nil nil)
 
-(put 'flycheck-define-command-checker 'lisp-indent-function '1)
+(function-put 'flycheck-define-command-checker 'lisp-indent-function '1)
 
-(put 'flycheck-define-command-checker 'doc-string-elt '2)
+(function-put 'flycheck-define-command-checker 'doc-string-elt '2)
 
 (autoload 'flycheck-def-config-file-var "flycheck/flycheck" "\
 Define SYMBOL as config file variable for CHECKER, with default FILE-NAME.
@@ -930,7 +754,7 @@ argument to `flycheck-define-checker'.
 
 \(fn SYMBOL CHECKER &optional FILE-NAME &rest CUSTOM-ARGS)" nil t)
 
-(put 'flycheck-def-config-file-var 'lisp-indent-function '3)
+(function-put 'flycheck-def-config-file-var 'lisp-indent-function '3)
 
 (autoload 'flycheck-def-option-var "flycheck/flycheck" "\
 Define SYMBOL as option variable with INIT-VALUE for CHECKER.
@@ -947,14 +771,112 @@ Use this together with the `option', `option-list' and
 
 \(fn SYMBOL INIT-VALUE CHECKERS DOCSTRING &rest CUSTOM-ARGS)" nil t)
 
-(put 'flycheck-def-option-var 'lisp-indent-function '3)
+(function-put 'flycheck-def-option-var 'lisp-indent-function '3)
 
-(put 'flycheck-def-option-var 'doc-string-elt '4)
+(function-put 'flycheck-def-option-var 'doc-string-elt '4)
 
 ;;;***
 
-;;;### (autoloads nil "go-mode/go-mode" "go-mode/go-mode.el" (22163
-;;;;;;  59609 0 0))
+;;;### (autoloads nil "go-mode/go-guru" "go-mode/go-guru.el" (22608
+;;;;;;  59254 0 0))
+;;; Generated autoloads from go-mode/go-guru.el
+
+(autoload 'go-guru-set-scope "go-mode/go-guru" "\
+Set the scope for the Go guru, prompting the user to edit the previous scope.
+
+The scope restricts analysis to the specified packages.
+Its value is a comma-separated list of patterns of these forms:
+	golang.org/x/tools/cmd/guru     # a single package
+	golang.org/x/tools/...          # all packages beneath dir
+	...                             # the entire workspace.
+
+A pattern preceded by '-' is negative, so the scope
+	encoding/...,-encoding/xml
+matches all encoding packages except encoding/xml.
+
+\(fn)" t nil)
+
+(autoload 'go-guru-callees "go-mode/go-guru" "\
+Show possible callees of the function call at the current point.
+
+\(fn)" t nil)
+
+(autoload 'go-guru-callers "go-mode/go-guru" "\
+Show the set of callers of the function containing the current point.
+
+\(fn)" t nil)
+
+(autoload 'go-guru-callstack "go-mode/go-guru" "\
+Show an arbitrary path from a root of the call graph to the
+function containing the current point.
+
+\(fn)" t nil)
+
+(autoload 'go-guru-definition "go-mode/go-guru" "\
+Jump to the definition of the selected identifier.
+
+\(fn)" t nil)
+
+(autoload 'go-guru-describe "go-mode/go-guru" "\
+Describe the selected syntax, its kind, type and methods.
+
+\(fn)" t nil)
+
+(autoload 'go-guru-pointsto "go-mode/go-guru" "\
+Show what the selected expression points to.
+
+\(fn)" t nil)
+
+(autoload 'go-guru-implements "go-mode/go-guru" "\
+Describe the 'implements' relation for types in the package
+containing the current point.
+
+\(fn)" t nil)
+
+(autoload 'go-guru-freevars "go-mode/go-guru" "\
+Enumerate the free variables of the current selection.
+
+\(fn)" t nil)
+
+(autoload 'go-guru-peers "go-mode/go-guru" "\
+Enumerate the set of possible corresponding sends/receives for
+this channel receive/send operation.
+
+\(fn)" t nil)
+
+(autoload 'go-guru-referrers "go-mode/go-guru" "\
+Enumerate all references to the object denoted by the selected
+identifier.
+
+\(fn)" t nil)
+
+(autoload 'go-guru-whicherrs "go-mode/go-guru" "\
+Show globals, constants and types to which the selected
+expression (of type 'error') may refer.
+
+\(fn)" t nil)
+
+(autoload 'go-guru-unhighlight-identifiers "go-mode/go-guru" "\
+Remove highlights from previously highlighted identifier.
+
+\(fn)" nil nil)
+
+(autoload 'go-guru-hl-identifier "go-mode/go-guru" "\
+Highlight all instances of the identifier under point. Removes
+highlights from previously highlighted identifier.
+
+\(fn)" t nil)
+
+(autoload 'go-guru-hl-identifier-mode "go-mode/go-guru" "\
+Highlight instances of the identifier at point after a short
+timeout.
+
+\(fn &optional ARG)" t nil)
+
+;;;***
+
+;;;### (autoloads nil "go-mode/go-mode" "go-mode/go-mode.el" (22608
+;;;;;;  59254 0 0))
 ;;; Generated autoloads from go-mode/go-mode.el
 
 (autoload 'go-mode "go-mode/go-mode" "\
@@ -976,14 +898,22 @@ Playground (uploading and downloading pastes).
 The following extra functions are defined:
 
 - `gofmt'
-- `godoc'
+- `godoc' and `godoc-at-point'
 - `go-import-add'
 - `go-remove-unused-imports'
+- `go-goto-arguments'
+- `go-goto-docstring'
+- `go-goto-function'
+- `go-goto-function-name'
 - `go-goto-imports'
+- `go-goto-return-values'
+- `go-goto-method-receiver'
 - `go-play-buffer' and `go-play-region'
 - `go-download-play'
 - `godef-describe' and `godef-jump'
 - `go-coverage'
+- `go-set-project'
+- `go-reset-gopath'
 
 If you want to automatically run `gofmt' before saving a file,
 add the following hook to your emacs configuration:
@@ -1038,8 +968,21 @@ Tries to look for a URL at point.
 
 ;;;***
 
+;;;### (autoloads nil "go-mode/go-rename" "go-mode/go-rename.el"
+;;;;;;  (22608 59254 0 0))
+;;; Generated autoloads from go-mode/go-rename.el
+
+(autoload 'go-rename "go-mode/go-rename" "\
+Rename the entity denoted by the identifier at point, using
+the `gorename' tool. With FORCE, call `gorename' with the
+`-force' flag.
+
+\(fn NEW-NAME &optional FORCE)" t nil)
+
+;;;***
+
 ;;;### (autoloads nil "hc-zenburn-emacs/hc-zenburn-theme" "hc-zenburn-emacs/hc-zenburn-theme.el"
-;;;;;;  (22163 60345 0 0))
+;;;;;;  (22608 59163 0 0))
 ;;; Generated autoloads from hc-zenburn-emacs/hc-zenburn-theme.el
 
 (and load-file-name (boundp 'custom-theme-load-path) (add-to-list 'custom-theme-load-path (file-name-as-directory (file-name-directory load-file-name))))
@@ -1047,7 +990,7 @@ Tries to look for a URL at point.
 ;;;***
 
 ;;;### (autoloads nil "hc-zenburn-theme/hc-zenburn-theme" "hc-zenburn-theme/hc-zenburn-theme.el"
-;;;;;;  (22163 59558 0 0))
+;;;;;;  (22608 59249 0 0))
 ;;; Generated autoloads from hc-zenburn-theme/hc-zenburn-theme.el
 
 (and load-file-name (boundp 'custom-theme-load-path) (add-to-list 'custom-theme-load-path (file-name-as-directory (file-name-directory load-file-name))))
@@ -1055,7 +998,7 @@ Tries to look for a URL at point.
 ;;;***
 
 ;;;### (autoloads nil "init-loader/init-loader" "init-loader/init-loader.el"
-;;;;;;  (22163 59527 0 0))
+;;;;;;  (22608 59158 0 0))
 ;;; Generated autoloads from init-loader/init-loader.el
 
 (autoload 'init-loader-load "init-loader/init-loader" "\
@@ -1070,99 +1013,8 @@ Show init-loader log buffer.
 
 ;;;***
 
-;;;### (autoloads nil "js2-mode/js2-imenu-extras" "js2-mode/js2-imenu-extras.el"
-;;;;;;  (22171 35764 0 0))
-;;; Generated autoloads from js2-mode/js2-imenu-extras.el
-
-(autoload 'js2-imenu-extras-setup "js2-mode/js2-imenu-extras" "\
-
-
-\(fn)" nil nil)
-
-(autoload 'js2-imenu-extras-mode "js2-mode/js2-imenu-extras" "\
-Toggle Imenu support for frameworks and structural patterns.
-
-\(fn &optional ARG)" t nil)
-
-;;;***
-
-;;;### (autoloads nil "js2-mode/js2-mode" "js2-mode/js2-mode.el"
-;;;;;;  (22171 35764 0 0))
-;;; Generated autoloads from js2-mode/js2-mode.el
-
-(autoload 'js2-highlight-unused-variables-mode "js2-mode/js2-mode" "\
-Toggle highlight of unused variables.
-
-\(fn &optional ARG)" t nil)
-
-(autoload 'js2-minor-mode "js2-mode/js2-mode" "\
-Minor mode for running js2 as a background linter.
-This allows you to use a different major mode for JavaScript editing,
-such as `js-mode', while retaining the asynchronous error/warning
-highlighting features of `js2-mode'.
-
-\(fn &optional ARG)" t nil)
-
-(autoload 'js2-mode "js2-mode/js2-mode" "\
-Major mode for editing JavaScript code.
-
-\(fn)" t nil)
-
-(autoload 'js2-jsx-mode "js2-mode/js2-mode" "\
-Major mode for editing JSX code.
-
-To customize the indentation for this mode, set the SGML offset
-variables (`sgml-basic-offset' et al) locally, like so:
-
-  (defun set-jsx-indentation ()
-    (setq-local sgml-basic-offset js2-basic-offset))
-  (add-hook 'js2-jsx-mode-hook #'set-jsx-indentation)
-
-\(fn)" t nil)
-
-;;;***
-
-;;;### (autoloads nil "let-alist/let-alist" "let-alist/let-alist.el"
-;;;;;;  (22165 8131 0 0))
-;;; Generated autoloads from let-alist/let-alist.el
-
-(autoload 'let-alist "let-alist/let-alist" "\
-Let-bind dotted symbols to their cdrs in ALIST and execute BODY.
-Dotted symbol is any symbol starting with a `.'.  Only those present
-in BODY are let-bound and this search is done at compile time.
-
-For instance, the following code
-
-  (let-alist alist
-    (if (and .title .body)
-        .body
-      .site
-      .site.contents))
-
-essentially expands to
-
-  (let ((.title (cdr (assq 'title alist)))
-        (.body  (cdr (assq 'body alist)))
-        (.site  (cdr (assq 'site alist)))
-        (.site.contents (cdr (assq 'contents (cdr (assq 'site alist))))))
-    (if (and .title .body)
-        .body
-      .site
-      .site.contents))
-
-If you nest `let-alist' invocations, the inner one can't access
-the variables of the outer one. You can, however, access alists
-inside the original alist by using dots inside the symbol, as
-displayed in the example above.
-
-\(fn ALIST &rest BODY)" nil t)
-
-(put 'let-alist 'lisp-indent-function '1)
-
-;;;***
-
 ;;;### (autoloads nil "pkg-info/pkg-info" "pkg-info/pkg-info.el"
-;;;;;;  (22165 8128 0 0))
+;;;;;;  (22609 2060 0 0))
 ;;; Generated autoloads from pkg-info/pkg-info.el
 
 (autoload 'pkg-info-library-original-version "pkg-info/pkg-info" "\
@@ -1272,65 +1124,35 @@ version.
 
 ;;;***
 
-;;;### (autoloads nil "react-snippets.el/react-snippets" "react-snippets.el/react-snippets.el"
-;;;;;;  (22171 35771 0 0))
-;;; Generated autoloads from react-snippets.el/react-snippets.el
+;;;### (autoloads nil "yaml-mode/yaml-mode" "yaml-mode/yaml-mode.el"
+;;;;;;  (22609 185 0 0))
+;;; Generated autoloads from yaml-mode/yaml-mode.el
 
-(autoload 'react-snippets-initialize "react-snippets.el/react-snippets" "\
+(let ((loads (get 'yaml 'custom-loads))) (if (member '"yaml-mode/yaml-mode" loads) nil (put 'yaml 'custom-loads (cons '"yaml-mode/yaml-mode" loads))))
 
+(autoload 'yaml-mode "yaml-mode/yaml-mode" "\
+Simple mode to edit YAML.
 
-\(fn)" nil nil)
-
-(eval-after-load 'yasnippet '(react-snippets-initialize))
-
-;;;***
-
-;;;### (autoloads nil "typescript.el/typescript-mode" "typescript.el/typescript-mode.el"
-;;;;;;  (22317 16072 0 0))
-;;; Generated autoloads from typescript.el/typescript-mode.el
-
-(autoload 'typescript-mode "typescript.el/typescript-mode" "\
-Major mode for editing typescript.
-
-Key bindings:
-
-\\{typescript-mode-map}
+\\{yaml-mode-map}
 
 \(fn)" t nil)
 
-(eval-after-load 'folding '(when (fboundp 'folding-add-to-marks-list) (folding-add-to-marks-list 'typescript-mode "// {{{" "// }}}")))
-
-(add-to-list 'auto-mode-alist '("\\.ts$" . typescript-mode))
+(add-to-list 'auto-mode-alist '("\\.\\(e?ya?\\|ra\\)ml\\'" . yaml-mode))
 
 ;;;***
 
-;;;### (autoloads nil "web-mode/web-mode" "web-mode/web-mode.el"
-;;;;;;  (22171 35376 0 0))
-;;; Generated autoloads from web-mode/web-mode.el
-
-(autoload 'web-mode "web-mode/web-mode" "\
-Major mode for editing web templates.
-
-\(fn)" t nil)
-
-;;;***
-
-;;;### (autoloads nil nil ("ac-python/ac-python.el" "auto-complete/auto-complete-pkg.el"
-;;;;;;  "company-mode/company-capf.el" "company-mode/company-clang.el"
+;;;### (autoloads nil nil ("company-mode/company-capf.el" "company-mode/company-clang.el"
 ;;;;;;  "company-mode/company-cmake.el" "company-mode/company-eclim.el"
 ;;;;;;  "company-mode/company-template.el" "company-mode/company-tests.el"
 ;;;;;;  "dash/dash-functional.el" "dash/dash.el" "el-get/el-get-autoloading.el"
 ;;;;;;  "el-get/el-get-build.el" "el-get/el-get-byte-compile.el"
 ;;;;;;  "el-get/el-get-core.el" "el-get/el-get-custom.el" "el-get/el-get-dependencies.el"
 ;;;;;;  "el-get/el-get-install.el" "el-get/el-get-methods.el" "el-get/el-get-notify.el"
-;;;;;;  "el-get/el-get-recipes.el" "el-get/el-get-status.el" "emacs-jedi/test-jedi.el"
-;;;;;;  "emacs-jedi/tryout-jedi.el" "epl/epl.el" "flycheck/flycheck-buttercup.el"
-;;;;;;  "flycheck/flycheck-ert.el" "fuzzy/fuzzy.el" "go-autocomplete/emacs/go-autocomplete.el"
+;;;;;;  "el-get/el-get-recipes.el" "el-get/el-get-status.el" "epl/epl.el"
+;;;;;;  "flycheck/flycheck-buttercup.el" "flycheck/flycheck-ert.el"
 ;;;;;;  "go-mode/go-mode-autoloads.el" "hc-zenburn-theme/hc-zenburn-theme-autoloads.el"
-;;;;;;  "hc-zenburn-theme/hc-zenburn-theme-pkg.el" "init-loader/test-init-loader.el"
-;;;;;;  "js2-mode/js2-old-indent.el" "let-alist/let-alist-autoloads.el"
-;;;;;;  "let-alist/let-alist-pkg.el" "popup/popup.el" "react-snippets.el/react-snippets-pkg.el"
-;;;;;;  "seq/seq.el") (22406 19342 575938 0))
+;;;;;;  "hc-zenburn-theme/hc-zenburn-theme-pkg.el" "init-loader/test-init-loader.el")
+;;;;;;  (22609 2107 0 0))
 
 ;;;***
 

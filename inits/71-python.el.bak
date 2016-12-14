@@ -1,0 +1,8 @@
+(el-get-bundle! python-mode)
+(el-get-bundle! ac-python)
+;;(el-get-bundle! company-jedi in tkf/emacs-jedi)
+(el-get-bundle! elpa:jedi-core)
+(el-get-bundle! company-jedi :depends (company-mode))
+
+(add-hook 'python-mode-hook 'jedi:setup)
+(setq jedi:complete-on-dot t)

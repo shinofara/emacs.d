@@ -18,7 +18,6 @@
 (add-to-list 'exec-path (expand-file-name "/usr/local/bin"))
 (add-to-list 'exec-path (expand-file-name "~/go/bin"))
 
-
 ;; 必要なパッケージのロード
 (el-get-bundle! 'go-mode)
 (el-get-bundle! company in company-mode/company-mode)
@@ -31,11 +30,8 @@
 (add-hook 'go-mode-hook 'flycheck-mode)
 (add-hook 'go-mode-hook (lambda()
            (add-hook 'before-save-hook' 'gofmt-before-save)
-           (local-set-key (kbd "M-.") 'godef-jump)
            (set (make-local-variable 'company-backends) '(company-go))
-           (company-mode)
-))
+           (company-mode)))
 
-
-(custom-set-variables                                                             
+(custom-set-variables
  '(company-global-modes '(not eshell-mode)))
