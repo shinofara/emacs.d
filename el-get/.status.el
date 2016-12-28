@@ -8,6 +8,14 @@
                       :after nil :checksum "21357f6d6274420d0f4fda07841daf0853b4749c"))
  (dash status "installed" recipe
        (:checksum "958e3fb62fd326d3743c0603b80d24ab85712c03" :name dash :description "A modern list api for Emacs. No 'cl required." :type github :pkgname "magnars/dash.el"))
+ (dockerfile-mode status "installed" recipe
+                  (:name dockerfile-mode :features
+                         (dockerfile-mode)
+                         :after nil :description "An emacs mode for handling Dockerfiles." :type github :pkgname "spotify/dockerfile-mode" :prepare
+                         (progn
+                           (add-to-list 'auto-mode-alist
+                                        '("Dockerfile\\'" . dockerfile-mode)))
+                         :checksum "bebfa1b73e7e006d574a0e4fbae225dc1db214ff"))
  (el-get status "installed" recipe
          (:name el-get :website "https://github.com/dimitri/el-get#readme" :description "Manage the external elisp bits and pieces you depend upon." :type github :branch "master" :pkgname "dimitri/el-get" :info "." :compile
                 ("el-get.*\\.el$" "methods/")

@@ -296,6 +296,30 @@ shadow backends that come after it.  Recommended usages:
 
 ;;;***
 
+;;;### (autoloads nil "dockerfile-mode/dockerfile-mode" "dockerfile-mode/dockerfile-mode.el"
+;;;;;;  (22627 33751 0 0))
+;;; Generated autoloads from dockerfile-mode/dockerfile-mode.el
+
+(autoload 'dockerfile-build-buffer "dockerfile-mode/dockerfile-mode" "\
+Build an image based upon the buffer
+
+\(fn IMAGE-NAME)" t nil)
+
+(autoload 'dockerfile-build-no-cache-buffer "dockerfile-mode/dockerfile-mode" "\
+Build an image based upon the buffer without cache
+
+\(fn IMAGE-NAME)" t nil)
+
+(autoload 'dockerfile-mode "dockerfile-mode/dockerfile-mode" "\
+A major mode to edit Dockerfiles.
+\\{dockerfile-mode-map}
+
+\(fn)" t nil)
+
+(add-to-list 'auto-mode-alist '("Dockerfile.*\\'" . dockerfile-mode))
+
+;;;***
+
 ;;;### (autoloads nil "el-get-lock/el-get-lock" "el-get-lock/el-get-lock.el"
 ;;;;;;  (22608 59156 0 0))
 ;;; Generated autoloads from el-get-lock/el-get-lock.el
