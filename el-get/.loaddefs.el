@@ -4,7 +4,7 @@
 
 
 ;;;### (autoloads nil "company-go/company-go" "company-go/company-go.el"
-;;;;;;  (22608 59272 0 0))
+;;;;;;  (22716 54113 0 0))
 ;;; Generated autoloads from company-go/company-go.el
 
 (autoload 'company-go "company-go/company-go" "\
@@ -15,7 +15,7 @@
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company" "company-mode/company.el"
-;;;;;;  (22608 59270 0 0))
+;;;;;;  (22716 54112 0 0))
 ;;; Generated autoloads from company-mode/company.el
 
 (autoload 'company-mode "company-mode/company" "\
@@ -86,7 +86,7 @@ inserted.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-abbrev" "company-mode/company-abbrev.el"
-;;;;;;  (22608 59270 0 0))
+;;;;;;  (22716 54112 0 0))
 ;;; Generated autoloads from company-mode/company-abbrev.el
 
 (autoload 'company-abbrev "company-mode/company-abbrev" "\
@@ -97,7 +97,7 @@ inserted.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-bbdb" "company-mode/company-bbdb.el"
-;;;;;;  (22608 59270 0 0))
+;;;;;;  (22716 54112 0 0))
 ;;; Generated autoloads from company-mode/company-bbdb.el
 
 (autoload 'company-bbdb "company-mode/company-bbdb" "\
@@ -108,7 +108,7 @@ inserted.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-css" "company-mode/company-css.el"
-;;;;;;  (22608 59270 0 0))
+;;;;;;  (22716 54112 0 0))
 ;;; Generated autoloads from company-mode/company-css.el
 
 (autoload 'company-css "company-mode/company-css" "\
@@ -119,7 +119,7 @@ inserted.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-dabbrev" "company-mode/company-dabbrev.el"
-;;;;;;  (22608 59270 0 0))
+;;;;;;  (22716 54112 0 0))
 ;;; Generated autoloads from company-mode/company-dabbrev.el
 
 (autoload 'company-dabbrev "company-mode/company-dabbrev" "\
@@ -130,7 +130,7 @@ dabbrev-like `company-mode' completion backend.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-dabbrev-code" "company-mode/company-dabbrev-code.el"
-;;;;;;  (22608 59270 0 0))
+;;;;;;  (22716 54112 0 0))
 ;;; Generated autoloads from company-mode/company-dabbrev-code.el
 
 (autoload 'company-dabbrev-code "company-mode/company-dabbrev-code" "\
@@ -143,7 +143,7 @@ comments or strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-elisp" "company-mode/company-elisp.el"
-;;;;;;  (22608 59270 0 0))
+;;;;;;  (22716 54112 0 0))
 ;;; Generated autoloads from company-mode/company-elisp.el
 
 (autoload 'company-elisp "company-mode/company-elisp" "\
@@ -154,7 +154,7 @@ comments or strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-etags" "company-mode/company-etags.el"
-;;;;;;  (22608 59270 0 0))
+;;;;;;  (22716 54112 0 0))
 ;;; Generated autoloads from company-mode/company-etags.el
 
 (autoload 'company-etags "company-mode/company-etags" "\
@@ -165,7 +165,7 @@ comments or strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-files" "company-mode/company-files.el"
-;;;;;;  (22608 59270 0 0))
+;;;;;;  (22716 54112 0 0))
 ;;; Generated autoloads from company-mode/company-files.el
 
 (autoload 'company-files "company-mode/company-files" "\
@@ -178,7 +178,7 @@ File paths with spaces are only supported inside strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-gtags" "company-mode/company-gtags.el"
-;;;;;;  (22608 59270 0 0))
+;;;;;;  (22716 54112 0 0))
 ;;; Generated autoloads from company-mode/company-gtags.el
 
 (autoload 'company-gtags "company-mode/company-gtags" "\
@@ -189,7 +189,7 @@ File paths with spaces are only supported inside strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-ispell" "company-mode/company-ispell.el"
-;;;;;;  (22608 59270 0 0))
+;;;;;;  (22716 54112 0 0))
 ;;; Generated autoloads from company-mode/company-ispell.el
 
 (autoload 'company-ispell "company-mode/company-ispell" "\
@@ -200,7 +200,7 @@ File paths with spaces are only supported inside strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-keywords" "company-mode/company-keywords.el"
-;;;;;;  (22608 59270 0 0))
+;;;;;;  (22716 54112 0 0))
 ;;; Generated autoloads from company-mode/company-keywords.el
 
 (autoload 'company-keywords "company-mode/company-keywords" "\
@@ -211,7 +211,7 @@ File paths with spaces are only supported inside strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-nxml" "company-mode/company-nxml.el"
-;;;;;;  (22608 59270 0 0))
+;;;;;;  (22716 54112 0 0))
 ;;; Generated autoloads from company-mode/company-nxml.el
 
 (autoload 'company-nxml "company-mode/company-nxml" "\
@@ -222,7 +222,7 @@ File paths with spaces are only supported inside strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-oddmuse" "company-mode/company-oddmuse.el"
-;;;;;;  (22608 59270 0 0))
+;;;;;;  (22716 54112 0 0))
 ;;; Generated autoloads from company-mode/company-oddmuse.el
 
 (autoload 'company-oddmuse "company-mode/company-oddmuse" "\
@@ -233,7 +233,7 @@ File paths with spaces are only supported inside strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-semantic" "company-mode/company-semantic.el"
-;;;;;;  (22608 59270 0 0))
+;;;;;;  (22716 54112 0 0))
 ;;; Generated autoloads from company-mode/company-semantic.el
 
 (autoload 'company-semantic "company-mode/company-semantic" "\
@@ -244,7 +244,7 @@ File paths with spaces are only supported inside strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-tempo" "company-mode/company-tempo.el"
-;;;;;;  (22608 59270 0 0))
+;;;;;;  (22716 54112 0 0))
 ;;; Generated autoloads from company-mode/company-tempo.el
 
 (autoload 'company-tempo "company-mode/company-tempo" "\
@@ -255,7 +255,7 @@ File paths with spaces are only supported inside strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-xcode" "company-mode/company-xcode.el"
-;;;;;;  (22608 59270 0 0))
+;;;;;;  (22716 54112 0 0))
 ;;; Generated autoloads from company-mode/company-xcode.el
 
 (autoload 'company-xcode "company-mode/company-xcode" "\
@@ -266,7 +266,7 @@ File paths with spaces are only supported inside strings.
 ;;;***
 
 ;;;### (autoloads nil "company-mode/company-yasnippet" "company-mode/company-yasnippet.el"
-;;;;;;  (22608 59270 0 0))
+;;;;;;  (22716 54112 0 0))
 ;;; Generated autoloads from company-mode/company-yasnippet.el
 
 (autoload 'company-yasnippet "company-mode/company-yasnippet" "\
@@ -297,7 +297,7 @@ shadow backends that come after it.  Recommended usages:
 ;;;***
 
 ;;;### (autoloads nil "dockerfile-mode/dockerfile-mode" "dockerfile-mode/dockerfile-mode.el"
-;;;;;;  (22627 33751 0 0))
+;;;;;;  (22716 54118 0 0))
 ;;; Generated autoloads from dockerfile-mode/dockerfile-mode.el
 
 (autoload 'dockerfile-build-buffer "dockerfile-mode/dockerfile-mode" "\
@@ -321,7 +321,7 @@ A major mode to edit Dockerfiles.
 ;;;***
 
 ;;;### (autoloads nil "el-get-lock/el-get-lock" "el-get-lock/el-get-lock.el"
-;;;;;;  (22608 59156 0 0))
+;;;;;;  (22716 53184 0 0))
 ;;; Generated autoloads from el-get-lock/el-get-lock.el
 
 (autoload 'el-get-lock "el-get-lock/el-get-lock" "\
@@ -358,7 +358,7 @@ Checkout the locked version of PACKAGES.
 
 ;;;***
 
-;;;### (autoloads nil "el-get/el-get" "el-get/el-get.el" (22608 59148
+;;;### (autoloads nil "el-get/el-get" "el-get/el-get.el" (22716 53177
 ;;;;;;  0 0))
 ;;; Generated autoloads from el-get/el-get.el
 
@@ -459,7 +459,7 @@ already installed packages is considered.
 ;;;***
 
 ;;;### (autoloads nil "el-get/el-get-bundle" "el-get/el-get-bundle.el"
-;;;;;;  (22608 59148 0 0))
+;;;;;;  (22716 53177 0 0))
 ;;; Generated autoloads from el-get/el-get-bundle.el
 
 (autoload 'el-get-bundle-el-get "el-get/el-get-bundle" "\
@@ -514,7 +514,7 @@ required.
 ;;;***
 
 ;;;### (autoloads nil "el-get/el-get-check" "el-get/el-get-check.el"
-;;;;;;  (22608 59148 0 0))
+;;;;;;  (22716 53177 0 0))
 ;;; Generated autoloads from el-get/el-get-check.el
 
 (autoload 'el-get-check-recipe "el-get/el-get-check" "\
@@ -533,7 +533,7 @@ object or a file path.
 ;;;***
 
 ;;;### (autoloads nil "el-get/el-get-list-packages" "el-get/el-get-list-packages.el"
-;;;;;;  (22608 59148 0 0))
+;;;;;;  (22716 53177 0 0))
 ;;; Generated autoloads from el-get/el-get-list-packages.el
 
 (autoload 'el-get-list-packages "el-get/el-get-list-packages" "\
@@ -544,7 +544,7 @@ Display a list of packages.
 ;;;***
 
 ;;;### (autoloads nil "exec-path-from-shell/exec-path-from-shell"
-;;;;;;  "exec-path-from-shell/exec-path-from-shell.el" (22608 59251
+;;;;;;  "exec-path-from-shell/exec-path-from-shell.el" (22716 54103
 ;;;;;;  0 0))
 ;;; Generated autoloads from exec-path-from-shell/exec-path-from-shell.el
 
@@ -578,7 +578,7 @@ values used in the user's shell.
 ;;;***
 
 ;;;### (autoloads nil "flycheck/flycheck" "flycheck/flycheck.el"
-;;;;;;  (22609 2107 0 0))
+;;;;;;  (22716 54100 0 0))
 ;;; Generated autoloads from flycheck/flycheck.el
 
 (autoload 'flycheck-manual "flycheck/flycheck" "\
@@ -801,8 +801,8 @@ Use this together with the `option', `option-list' and
 
 ;;;***
 
-;;;### (autoloads nil "go-mode/go-guru" "go-mode/go-guru.el" (22608
-;;;;;;  59254 0 0))
+;;;### (autoloads nil "go-mode/go-guru" "go-mode/go-guru.el" (22716
+;;;;;;  54106 0 0))
 ;;; Generated autoloads from go-mode/go-guru.el
 
 (autoload 'go-guru-set-scope "go-mode/go-guru" "\
@@ -899,8 +899,8 @@ timeout.
 
 ;;;***
 
-;;;### (autoloads nil "go-mode/go-mode" "go-mode/go-mode.el" (22608
-;;;;;;  59254 0 0))
+;;;### (autoloads nil "go-mode/go-mode" "go-mode/go-mode.el" (22716
+;;;;;;  54106 0 0))
 ;;; Generated autoloads from go-mode/go-mode.el
 
 (autoload 'go-mode "go-mode/go-mode" "\
@@ -972,15 +972,15 @@ with goflymake (see URL `https://github.com/dougm/goflymake'), gocode
 
 (autoload 'gofmt-before-save "go-mode/go-mode" "\
 Add this to .emacs to run gofmt on the current buffer when saving:
- (add-hook 'before-save-hook 'gofmt-before-save).
+\(add-hook 'before-save-hook 'gofmt-before-save).
 
-Note that this will cause go-mode to get loaded the first time
+Note that this will cause ‘go-mode’ to get loaded the first time
 you save any file, kind of defeating the point of autoloading.
 
 \(fn)" t nil)
 
 (autoload 'godoc "go-mode/go-mode" "\
-Show Go documentation for QUERY, much like M-x man.
+Show Go documentation for QUERY, much like \\<go-mode-map>\\[man].
 
 \(fn QUERY)" t nil)
 
@@ -993,7 +993,7 @@ Tries to look for a URL at point.
 ;;;***
 
 ;;;### (autoloads nil "go-mode/go-rename" "go-mode/go-rename.el"
-;;;;;;  (22608 59254 0 0))
+;;;;;;  (22716 54106 0 0))
 ;;; Generated autoloads from go-mode/go-rename.el
 
 (autoload 'go-rename "go-mode/go-rename" "\
@@ -1006,7 +1006,7 @@ the `gorename' tool. With FORCE, call `gorename' with the
 ;;;***
 
 ;;;### (autoloads nil "hc-zenburn-emacs/hc-zenburn-theme" "hc-zenburn-emacs/hc-zenburn-theme.el"
-;;;;;;  (22608 59163 0 0))
+;;;;;;  (22716 53193 0 0))
 ;;; Generated autoloads from hc-zenburn-emacs/hc-zenburn-theme.el
 
 (and load-file-name (boundp 'custom-theme-load-path) (add-to-list 'custom-theme-load-path (file-name-as-directory (file-name-directory load-file-name))))
@@ -1014,7 +1014,7 @@ the `gorename' tool. With FORCE, call `gorename' with the
 ;;;***
 
 ;;;### (autoloads nil "hc-zenburn-theme/hc-zenburn-theme" "hc-zenburn-theme/hc-zenburn-theme.el"
-;;;;;;  (22608 59249 0 0))
+;;;;;;  (22716 54076 0 0))
 ;;; Generated autoloads from hc-zenburn-theme/hc-zenburn-theme.el
 
 (and load-file-name (boundp 'custom-theme-load-path) (add-to-list 'custom-theme-load-path (file-name-as-directory (file-name-directory load-file-name))))
@@ -1022,7 +1022,7 @@ the `gorename' tool. With FORCE, call `gorename' with the
 ;;;***
 
 ;;;### (autoloads nil "init-loader/init-loader" "init-loader/init-loader.el"
-;;;;;;  (22608 59158 0 0))
+;;;;;;  (22716 53187 0 0))
 ;;; Generated autoloads from init-loader/init-loader.el
 
 (autoload 'init-loader-load "init-loader/init-loader" "\
@@ -1038,7 +1038,7 @@ Show init-loader log buffer.
 ;;;***
 
 ;;;### (autoloads nil "pkg-info/pkg-info" "pkg-info/pkg-info.el"
-;;;;;;  (22609 2060 0 0))
+;;;;;;  (22716 54086 0 0))
 ;;; Generated autoloads from pkg-info/pkg-info.el
 
 (autoload 'pkg-info-library-original-version "pkg-info/pkg-info" "\
@@ -1149,7 +1149,7 @@ version.
 ;;;***
 
 ;;;### (autoloads nil "yaml-mode/yaml-mode" "yaml-mode/yaml-mode.el"
-;;;;;;  (22609 185 0 0))
+;;;;;;  (22716 54116 0 0))
 ;;; Generated autoloads from yaml-mode/yaml-mode.el
 
 (let ((loads (get 'yaml 'custom-loads))) (if (member '"yaml-mode/yaml-mode" loads) nil (put 'yaml 'custom-loads (cons '"yaml-mode/yaml-mode" loads))))
@@ -1176,7 +1176,7 @@ Simple mode to edit YAML.
 ;;;;;;  "flycheck/flycheck-buttercup.el" "flycheck/flycheck-ert.el"
 ;;;;;;  "go-mode/go-mode-autoloads.el" "hc-zenburn-theme/hc-zenburn-theme-autoloads.el"
 ;;;;;;  "hc-zenburn-theme/hc-zenburn-theme-pkg.el" "init-loader/test-init-loader.el")
-;;;;;;  (22609 2107 0 0))
+;;;;;;  (22716 54112 0 0))
 
 ;;;***
 

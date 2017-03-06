@@ -18,7 +18,7 @@
     (eval-print-last-sexp)))
 
 ;; el-get.lock ファイルにバージョン固定の指定を書き出す
-(el-get-bundle tarao/el-get-lock)
+(el-get-bundle! 'tarao/el-get-lock)
 (el-get-lock)
 
 ;; init-loader.el を利用して設定を分割
