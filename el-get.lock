@@ -1,5 +1,7 @@
 (setq el-get-lock-package-versions
-      '((yaml-mode :checksum "f378589912af8731428198ef57546c616d941df0")
+      '((seq :checksum "cdd5d2d24a8dc12ecbd4930193a374f2d0c35901")
+        (typescript\.el :checksum "f72826e564dc9d7b60dd9df3c6337f33b02560bf")
+        (yaml-mode :checksum "f378589912af8731428198ef57546c616d941df0")
         (company-go :checksum "92fcd5b7a94009078268e66101ac9e3f1c8cbb93")
         (company-mode :checksum "21357f6d6274420d0f4fda07841daf0853b4749c")
         (go-mode :checksum "259110bfd7acb62196b09487d0883429b444bf1b")
