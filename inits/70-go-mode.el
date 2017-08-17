@@ -25,6 +25,9 @@
 ;;; company-go
 (el-get-bundle! company-go :url "https://raw.githubusercontent.com/nsf/gocode/master/emacs-company/company-go.el")
 
+;;; imports
+(setq gofmt-command "goimports")
+
 ;; 諸々の有効化、設定
 (add-hook 'go-mode-hook 'company-mode)
 (add-hook 'go-mode-hook 'flycheck-mode)
@@ -35,3 +38,8 @@
 
 (custom-set-variables
  '(company-global-modes '(not eshell-mode)))
+
+
+(el-get-bundle go-guru
+  :type http
+  :url "https://raw.githubusercontent.com/dominikh/go-mode.el/master/go-guru.el")

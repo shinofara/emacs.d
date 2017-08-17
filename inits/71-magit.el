@@ -1,2 +1,2 @@
+(el-get-bundle! magit)
 (el-get-bundle! dash)
-(el-get-bundle! magit/magit)
