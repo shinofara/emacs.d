@@ -1,5 +1,6 @@
 (setq el-get-lock-package-versions
-      '((jedi-core :checksum "b0764f425766786dfb1bff910ed1d1670f11eb9c")
+      '((php-mode :checksum "ce0e3d5f073309ea52ba0681f3c9d66f24efeaa0")
+        (jedi-core :checksum "b0764f425766786dfb1bff910ed1d1670f11eb9c")
         (go-guru :checksum "2939567ef6cea8fdc169e3bb848bfa5474777b9b")
         (protobuf-mode :checksum "dc27d96872b2992c7bbce151b627a0bfbd83e85d")
         (epc :checksum "76fe6847a341f78c635164c18908a0b691f7212c")
